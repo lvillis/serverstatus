@@ -12,10 +12,10 @@
         <img src="https://img.shields.io/badge/Vue-3-blue.svg?" alt="Vue Support">
     </a>
     <a href="https://github.com/lvillis/serverstatus">
-        <img src="https://img.shields.io/github/license/lvillis/ServerStatus?style=flat-square" alt="License">
+        <img src="https://img.shields.io/github/license/lvillis/serverstatus?style=flat-square" alt="License">
     </a>
     <a href="https://github.com/lvillis/serverstatus">
-        <img src="https://img.shields.io/github/repo-size/lvillis/ServerStatus?style=flat-square&color=328657" alt="GitHub repo size">
+        <img src="https://img.shields.io/github/repo-size/lvillis/serverstatus?style=flat-square&color=328657" alt="GitHub repo size">
     </a>
     <a href="https://github.com/lvillis/serverstatus">
         <img src="https://img.shields.io/github/last-commit/lvillis/serverstatus.svg?label=commits" alt="GitHub last commit">
@@ -38,7 +38,7 @@
 
 ---
 
-## Server [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker?style=flat-square)](https://github.com/Dreamacro/clash/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/server)](https://hub.docker.com)
+## Server [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20server?style=flat-square)](https://github.com/Dreamacro/clash/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/server)](https://hub.docker.com)
 
 ```
 docker run -d \
@@ -49,7 +49,7 @@ docker run -d \
     --restart=always lvillis/serverstatus:server
 ```
 
-## Dashboard [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker?style=flat-square)](https://github.com/Dreamacro/clash/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/dashboard)](https://hub.docker.com)
+## Dashboard [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20dashboard?style=flat-square)](https://github.com/Dreamacro/clash/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/dashboard)](https://hub.docker.com)
 
 ```
 docker run -d \
@@ -59,7 +59,7 @@ docker run -d \
     --restart=always lvillis/serverstatus:dashboard
 ```
 
-## Agent [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker?style=flat-square)](https://github.com/Dreamacro/clash/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/agent)](https://hub.docker.com)
+## Agent [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20agent?style=flat-square)](https://github.com/Dreamacro/clash/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/agent)](https://hub.docker.com)
 
 ```
 docker run -d --privileged --pid=host \
