@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended"
+  ],
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser"
+  },
+  "rules": {
+    "semi": [ 1, "always" ],
+    "quotes": [ 1, "single" ],
+    "vue/no-unused-components": "off"
+  }
+}
