@@ -92,6 +92,7 @@ systemctl start vnstat
 
 * ServerStatus：https://github.com/BotoX/ServerStatus
 * mojeda's ServerStatus: https://github.com/mojeda/ServerStatus
+  <!-- markdown-link-check-disable-next-line -->
 * BlueVM's project: http://www.lowendtalk.com/discussion/comment/169690#Comment_169690
 * Hotaru theme: https://github.com/CokeMine/Hotaru_theme
 
