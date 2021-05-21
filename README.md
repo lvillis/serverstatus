@@ -20,8 +20,10 @@
     <a href="https://github.com/lvillis/serverstatus">
         <img src="https://img.shields.io/github/last-commit/lvillis/serverstatus.svg?label=commits" alt="GitHub last commit">
     </a>
+    <a href="https://github.com/lvillis/serverstatus">
+        <img src="https://img.shields.io/docker/pulls/lvillis/serverstatus" alt="docker pulls">
+    </a>
 </p>
-
 
 ---
 ## <a href="https://github.com/lvillis/serverstatus">Demo</a>
