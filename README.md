@@ -40,7 +40,7 @@
 
 ---
 
-## Server [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20server?style=flat-square)](https://github.com/Dreamacro/clash/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/server)](https://hub.docker.com)
+## Server [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20server?style=flat-square)](https://github.com/lvillis/serverstatus/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/server)](https://hub.docker.com)
 
 ```
 docker run -d \
@@ -51,7 +51,7 @@ docker run -d \
     --restart=always lvillis/serverstatus:server
 ```
 
-## Dashboard [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20dashboard?style=flat-square)](https://github.com/Dreamacro/clash/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/dashboard)](https://hub.docker.com)
+## Dashboard [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20dashboard?style=flat-square)](https://github.com/lvillis/serverstatus/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/dashboard)](https://hub.docker.com)
 
 ```
 docker run -d \
@@ -61,7 +61,7 @@ docker run -d \
     --restart=always lvillis/serverstatus:dashboard
 ```
 
-## Agent [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20agent?style=flat-square)](https://github.com/Dreamacro/clash/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/agent)](https://hub.docker.com)
+## Agent [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20agent?style=flat-square)](https://github.com/lvillis/serverstatus/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/agent)](https://hub.docker.com)
 
 ```
 docker run -d --privileged --pid=host \
@@ -73,9 +73,10 @@ docker run -d --privileged --pid=host \
     --restart=always lvillis/serverstatus:agent
 ```
 
-Agent获取 每月流量 依赖vnstat，centos7安装vnstat最新版如下
+Agent obtains monthly traffic depends on vnstat.
 
 ```
+# centos7 installs the latest version of vnstat.
 yum install -y kernel-headers gcc sqlite sqlite-devel
 wget https://humdi.net/vnstat/vnstat-latest.tar.gz
 tar zxvf vnstat-latest.tar.gz
@@ -90,7 +91,7 @@ systemctl start vnstat
 
 ---
 
-## 相关开源项目:
+## Related open source projects:
 
 * ServerStatus：https://github.com/BotoX/ServerStatus
 * mojeda's ServerStatus: https://github.com/mojeda/ServerStatus
