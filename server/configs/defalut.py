@@ -1,4 +1,6 @@
-import os
+from environs import Env
 
-HOST = os.environ.get('HOST', '0.0.0.0')
-PORT = os.environ.get('PORT', 35601)
+env = Env()
+
+HOST = env.str('HOST', '0.0.0.0')
+PORT = env.int('PORT', 35601)
