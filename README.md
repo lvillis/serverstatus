@@ -1,29 +1,16 @@
-<h1 align="center">
-    <br>ServerStatus<br>
-</h1>
-<p align="center">
-    <em>云探针、多服务器探针、云监控、多服务器云监控、定时任务监控</em>
-</p>
-<p align="center">
-    <a href="https://github.com/lvillis/serverstatus">
-        <img src="https://img.shields.io/badge/Python-3.9-blue.svg" alt="Python Support">
-    </a>
-    <a href="https://github.com/lvillis/serverstatus">
-        <img src="https://img.shields.io/badge/Vue-3-blue.svg?" alt="Vue Support">
-    </a>
-    <a href="https://github.com/lvillis/serverstatus">
-        <img src="https://img.shields.io/github/license/lvillis/serverstatus?style=flat-square" alt="License">
-    </a>
-    <a href="https://github.com/lvillis/serverstatus">
-        <img src="https://img.shields.io/github/repo-size/lvillis/serverstatus?style=flat-square&color=328657" alt="GitHub repo size">
-    </a>
-    <a href="https://github.com/lvillis/serverstatus">
-        <img src="https://img.shields.io/github/last-commit/lvillis/serverstatus.svg?label=commits" alt="GitHub last commit">
-    </a>
-    <a href="https://github.com/lvillis/serverstatus">
-        <img src="https://img.shields.io/docker/pulls/lvillis/serverstatus" alt="docker pulls">
-    </a>
-</p>
+<div align="center">
+
+# ServerStatus
+*云探针、多服务器探针、云监控、多服务器云监控、定时任务监控*
+
+[![](https://img.shields.io/badge/Python-3.9-blue?style=flat-square)](https://github.com/lvillis/serverstatus)
+[![](https://img.shields.io/badge/Vue-3-blue?style=flat-square)](https://github.com/lvillis/serverstatus)
+[![](https://img.shields.io/github/license/lvillis/serverstatus?style=flat-square)](https://github.com/lvillis/serverstatus)
+[![](https://img.shields.io/github/repo-size/lvillis/serverstatus?style=flat-square&color=328657)](https://github.com/lvillis/serverstatus)
+[![](https://img.shields.io/github/last-commit/lvillis/serverstatus?style=flat-square&label=commits)](https://github.com/lvillis/serverstatus)
+[![](https://img.shields.io/docker/pulls/lvillis/serverstatus?style=flat-square)](https://github.com/lvillis/serverstatus)
+
+</div>
 
 ---
 ## <a href="https://github.com/lvillis/serverstatus">Demo</a>
@@ -40,7 +27,7 @@
 
 ---
 
-## Server [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20server?style=flat-square)](https://github.com/lvillis/serverstatus/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/server)](https://hub.docker.com)
+## Server [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20server?style=flat-square)](https://github.com/lvillis/serverstatus/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/server?style=flat-square)](https://hub.docker.com)
 
 ```
 docker run -d \
@@ -51,7 +38,7 @@ docker run -d \
     --restart=always lvillis/serverstatus:server
 ```
 
-## Dashboard [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20dashboard?style=flat-square)](https://github.com/lvillis/serverstatus/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/dashboard)](https://hub.docker.com)
+## Dashboard [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20dashboard?style=flat-square)](https://github.com/lvillis/serverstatus/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/dashboard?style=flat-square)](https://hub.docker.com)
 
 ```
 docker run -d \
@@ -61,7 +48,7 @@ docker run -d \
     --restart=always lvillis/serverstatus:dashboard
 ```
 
-## Agent [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20agent?style=flat-square)](https://github.com/lvillis/serverstatus/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/agent)](https://hub.docker.com)
+## Agent [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20agent?style=flat-square)](https://github.com/lvillis/serverstatus/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/agent?style=flat-square)](https://hub.docker.com)
 
 ```
 docker run -d --privileged --pid=host \
