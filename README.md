@@ -13,7 +13,8 @@
 </div>
 
 ---
-## <a href="https://github.com/lvillis/serverstatus">Demo</a>
+## <a href="https://serverstatus.pages.dev/">Demo</a>
+https://serverstatus.pages.dev/
 ## Features
 
 * 检测服务器IPv4&IPv6的连通性，共存则显示双栈

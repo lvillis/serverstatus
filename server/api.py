@@ -106,7 +106,7 @@ async def get():
 
 
 def get_next_time(value):
-    # 延迟时间 x秒后执行 contab 任务
+    # 延迟时间 x秒后执行 crontab 任务
     delay_time = CronTab(value).next(default_utc=False)
     # 下次执行时间的时间戳
     next_time_timestamp = int(time.time() + delay_time)

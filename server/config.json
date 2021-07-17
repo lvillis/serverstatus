@@ -3,7 +3,7 @@
     {
       "username": "docker1",
       "name": "docker1",
-      "type": "kvm",
+      "type": "Dedicated",
       "host": "#USA",
       "location": "USA",
       "password": "USER_DEFAULT_PASSWORD"
@@ -11,7 +11,7 @@
     {
       "username": "docker2",
       "name": "docker2",
-      "type": "kvm",
+      "type": "KVM",
       "host": "#USA",
       "location": "USA",
       "password": "USER_DEFAULT_PASSWORD"
@@ -19,7 +19,7 @@
     {
       "username": "docker3",
       "name": "docker3",
-      "type": "kvm",
+      "type": "OpenVZ",
       "host": "#USA",
       "location": "USA",
       "password": "USER_DEFAULT_PASSWORD",
@@ -28,7 +28,16 @@
     {
       "username": "docker4",
       "name": "docker4",
-      "type": "kvm",
+      "type": "Xen",
+      "host": "#USA",
+      "location": "USA",
+      "password": "USER_DEFAULT_PASSWORD"
+    }
+    ,
+    {
+      "username": "docker4",
+      "name": "docker4",
+      "type": "Hyper-V",
       "host": "#USA",
       "location": "USA",
       "password": "USER_DEFAULT_PASSWORD"
@@ -37,37 +46,37 @@
   "healthchecks": [
     {
       "name": "每两个小时",
-      "token": "uuid1",
+      "token": "41a2870e",
       "period": "0 */2 * * *",
       "grace": "1"
     },
     {
       "name": "每天7：50",
-      "token": "uuid2",
+      "token": "22c7c668",
       "period": "50 7 * * *",
       "grace": "1"
     },
     {
       "name": "每月1号和15号",
-      "token": "uuid3",
+      "token": "99073d87",
       "period": "0 0 1,15 * *",
       "grace": "1"
     },
     {
       "name": "每分钟",
-      "token": "uuid4",
+      "token": "f6db2e97",
       "period": "* * * * *",
       "grace": "1"
     },
     {
       "name": "每周一至周五3点钟",
-      "token": "uuid5",
+      "token": "f1cf7eb9",
       "period": "00 03 * * 1-5",
       "grace": "1"
     },
     {
       "name": "每月的1、11、21、31日",
-      "token": "uuid6",
+      "token": "a3056e1d",
       "period": "30 6 */10 * *",
       "grace": "1"
     }

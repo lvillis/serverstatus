@@ -282,10 +282,10 @@ def get_status():
 
 
 def send_data():
-    session = requests.session()
+    session = requests.Session()
     while True:
         try:
-            ret = session.post(API_URL, data=json.dumps(status_json), timeout=2)
+            ret = session.post(API_URL, json=status_json, timeout=2)
             logger.info(ret.status_code)
         except:
             logger.error("Webapi Error")
