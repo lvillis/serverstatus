@@ -13,6 +13,14 @@
 </div>
 
 ---
+
+| Name | Build | Size |
+| :---: | :---: | :---: |
+| Server | [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20server?style=flat-square)](https://github.com/lvillis/serverstatus/actions) | [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/server?style=flat-square)](https://hub.docker.com) |
+| Dashboard | [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20dashboard?style=flat-square)](https://github.com/lvillis/serverstatus/actions) | [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/dashboard?style=flat-square)](https://hub.docker.com) |
+| Agent | [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20agent?style=flat-square)](https://github.com/lvillis/serverstatus/actions) | [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/agent?style=flat-square)](https://hub.docker.com) |
+
+
 ## <a href="https://serverstatus.pages.dev/">Demo</a>
 https://serverstatus.pages.dev/
 ## Features
@@ -28,8 +36,7 @@ https://serverstatus.pages.dev/
 
 ---
 
-## Server [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20server?style=flat-square)](https://github.com/lvillis/serverstatus/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/server?style=flat-square)](https://hub.docker.com)
-
+## Server
 ```
 docker run -d \
     --name=serverstatus-server \
@@ -39,8 +46,7 @@ docker run -d \
     --restart=always lvillis/serverstatus:server
 ```
 
-## Dashboard [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20dashboard?style=flat-square)](https://github.com/lvillis/serverstatus/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/dashboard?style=flat-square)](https://hub.docker.com)
-
+## Dashboard 
 ```
 docker run -d \
     --name=serverstatus-dashboard \
@@ -49,8 +55,7 @@ docker run -d \
     --restart=always lvillis/serverstatus:dashboard
 ```
 
-## Agent [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20agent?style=flat-square)](https://github.com/lvillis/serverstatus/actions) [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/agent?style=flat-square)](https://hub.docker.com)
-
+## Agent 
 ```
 docker run -d --privileged --pid=host \
     --name=serverstatus-agent \
