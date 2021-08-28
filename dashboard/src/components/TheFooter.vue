@@ -1,5 +1,5 @@
 <template>
-  <p><a href="https://github.com/">ServerStatus</a></p>
+  <p><a href="https://github.com/lvillis/serverstatus">ServerStatus</a></p>
 </template>
 
 <script lang="ts">
