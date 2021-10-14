@@ -1,4 +1,4 @@
-FROM lvillis/alpine:python-base AS base
+FROM lvillis/alpine:3.14-python3.10.0 AS base
 
 COPY /server/requirements.txt .
 
