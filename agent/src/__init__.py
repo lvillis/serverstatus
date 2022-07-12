@@ -4,9 +4,9 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 
 import requests
+from loguru import logger
 
 from configs import *
-from log import logger
 
 
 class shell:
