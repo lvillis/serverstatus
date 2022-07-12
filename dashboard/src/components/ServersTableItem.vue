@@ -48,9 +48,9 @@
         <div id="expand_cpu_cores">CPU Cores : {{ server.cpu_cores }} Cores {{ server.cpu_speed }} MHz</div>
         <div id="expand_cpu_kernel">Kernel : {{ server.kernel }}</div>
         <div id="expand_tcp_cc">TCP CC : {{ server.tcp_cc }}</div>
-        <div id="expand_mem">Total RAM : {{ expandRowByteConvert(server.memory_used * 1024) }} / {{ expandRowByteConvert(server.memory_total * 1024) }}</div>
-        <div id="expand_swap">Total SWAP : {{ expandRowByteConvert(server.swap_used * 1024) }} / {{ expandRowByteConvert(server.swap_total * 1024) }}</div>
-        <div id="expand_hdd">Total Space : {{ expandRowByteConvert(server.hdd_used * 1024 * 1024) }} / {{ expandRowByteConvert(server.hdd_total * 1024 * 1024) }}</div>
+        <div id="expand_mem">RAM : {{ expandRowByteConvert(server.memory_used * 1024) }} / {{ expandRowByteConvert(server.memory_total * 1024) }}</div>
+        <div id="expand_swap">SWAP : {{ expandRowByteConvert(server.swap_used * 1024) }} / {{ expandRowByteConvert(server.swap_total * 1024) }}</div>
+        <div id="expand_hdd">Disk : {{ expandRowByteConvert(server.hdd_used * 1024 * 1024) }} / {{ expandRowByteConvert(server.hdd_total * 1024 * 1024) }}</div>
         <div id="expand_tupd">TCP/UDP/进/线 : {{ server.tcp_count }} / {{ server.udp_count }} / {{ server.process_count }} / {{ server.thread_count }}</div>
         <div id="expand_ssh_sessions">SSH Sessions: {{ server.ssh_sessions }}</div>
         <!--        <div id="expand_custom">{{server.custom}}</div>-->
