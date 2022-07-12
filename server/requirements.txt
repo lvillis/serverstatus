@@ -2,4 +2,4 @@ uvicorn==0.16.0
 fastapi==0.70.1
 pydantic==1.8.2
 crontab==0.23.0
-environs==9.3.5
+environs==9.5.0
