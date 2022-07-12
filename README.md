@@ -25,10 +25,10 @@
 https://serverstatus.pages.dev/
 ## Features
 
-* 检测服务器IPv4&IPv6的连通性，共存则显示双栈
-* 依据 Load 与 CPU Cores 的数值在Load栏显示不同背景色
-* ServerStatus下拉栏增加更多数据
-* 增加HealthCheck，检测定时任务的执行情况
+* Check the connectivity of server IPv4&IPv6, if coexistence, it will show dual stack
+* Display different background colors in the Load column according to the values ​​of Load and CPU Cores
+* Add more data to ServerStatus dropdown
+* Add HealthCheck to detect the execution of scheduled tasks
 
 ## TODO
 
