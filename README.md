@@ -1,7 +1,7 @@
 <div align="center">
 
 # ServerStatus
-*云探针、多服务器探针、云监控、多服务器云监控、定时任务监控*
+*With agent, multi-server status monitoring.*
 
 [![](https://img.shields.io/badge/Python-3.9-blue?style=flat-square)](https://github.com/lvillis/serverstatus)
 [![](https://img.shields.io/badge/Vue-3-blue?style=flat-square)](https://github.com/lvillis/serverstatus)
