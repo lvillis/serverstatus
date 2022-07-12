@@ -21,7 +21,7 @@
 | Agent | [![Github Actions](https://img.shields.io/github/workflow/status/lvillis/serverstatus/Docker%20agent?style=flat-square)](https://github.com/lvillis/serverstatus/actions) | [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/lvillis/serverstatus/agent?style=flat-square)](https://hub.docker.com) |
 
 
-## <a href="https://serverstatus.pages.dev/">Demo</a>
+## Demo
 https://serverstatus.pages.dev/
 ## Features
 
