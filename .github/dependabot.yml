@@ -1,7 +1,21 @@
 version: 2
 updates:
-  # Maintain dependencies for GitHub Actions
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
+      time: "09:00"
+      timezone: "Asia/Shanghai"
+
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "09:00"
+      timezone: "Asia/Shanghai"
+    open-pull-requests-limit: 10
+    ignore:
+      - dependency-name: prettytable
+        versions:
+          - 2.0.0
