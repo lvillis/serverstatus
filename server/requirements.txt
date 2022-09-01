@@ -1,5 +1,5 @@
 uvicorn==0.17.6
 fastapi==0.80.0
-pydantic==1.9.2
+pydantic==1.10.1
 crontab==0.23.0
 environs==9.5.0
