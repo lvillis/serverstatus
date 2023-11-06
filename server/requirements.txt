@@ -1,4 +1,4 @@
-uvicorn==0.18.3
+uvicorn==0.24.0
 fastapi==0.103.1
 pydantic==1.10.4
 crontab==1.0.1
